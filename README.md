@@ -1,4 +1,4 @@
-# OpenSourceSmith
+# Sample Next.js - OpenSourceSmith
 
 OpenSourceSmith is a platform designed to empower developers by providing curated open-source templates for frontend, backend, and full-stack applications. Our goal is to streamline the development process, allowing you to start your next project in minutes with ready-to-use resources. Whether you're a beginner or an experienced developer, our tools are designed to save you time and effort, enabling you to focus on building great software.
 
