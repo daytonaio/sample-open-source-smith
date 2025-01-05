@@ -62,7 +62,7 @@ To get started with OpenSourceSmith, follow these steps:
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 2. **Create the Workspace**:
    ```bash
-   daytona create https://github.com/md-abid-hussain/open-source-smith-daytona.git
+   daytona create https://github.com/daytonaio/sample-open-source-smith.git
    ```
 3. **Configure Environment Variables**:  
    Copy the `.env.example` file to `.env` and update the environment variables with your own values.
