@@ -62,7 +62,7 @@ To get started with OpenSourceSmith, follow these steps:
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 2. **Create the Workspace**:
    ```bash
-   daytona create https://github.com/md-abid-hussain/open-source-smith-daytona.git
+   daytona create https://github.com/daytonaio/sample-open-source-smith.git
    ```
 3. **Configure Environment Variables**:  
    Copy the `.env.example` file to `.env` and update the environment variables with your own values.
@@ -75,7 +75,7 @@ To get started with OpenSourceSmith, follow these steps:
 
   - `DATABASE_URL`: This should be the Postgres database connection URL.
   - `GEMINI_API_KEY`: This is the API key for accessing the Gemini API. You can get it from [here](https://ai.google.dev/gemini-api/docs).
-  - `NEXTAUTH_URL`: This is the URL of your NextAuth.js application. It should be the base URL of your deployed application. For development, it should be `http://localhost:3000`.
+  - `HOST_URL`: This should be the base URL of your deployed application. For development, it should be `http://localhost:3000`.
   - `NEXTAUTH_SECRET`: This is a secret key used by NextAuth.js to encrypt session data. To generate a secure secret key, you can use the following command:
     ```bash
     openssl rand -base64 32
